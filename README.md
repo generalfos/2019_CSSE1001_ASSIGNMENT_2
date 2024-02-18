@@ -1,11 +1,10 @@
 # 2019_CSSE1001_ASSIGNMENT_2
-My second produced Python solution.
+My second produced Python solution for my second CSSE1001 assignment.
 
 Overview
 
-They are weather_data.py, prediction.py and event_decision.py. Each file defines a set of classes, which are described below. You will need to implement parts, or all, of the classes in the prediction.py and event_decision.py files.
-The file, weather_data.py, contains the WeatherData and WeatherDataItem classes. WeatherData represents all the weather data that is loaded from the data file. WeatherDataItem represents weather data for a single day. It provides methods to access this data.
-The prediction.py file defines the super class WeatherPrediction. It defines a set of methods that you need to override in subclasses that you implement for the assignment. An example of doing this is provided by the YesterdaysWeather subclass. You need to implement the SimplePrediction and SophisticatedPredication subclasses.
-The file, event_decision.py, provides a description of the EventDecision class. It uses data about the event to determine if aspects of the weather would impact on the event. You will need to implement the __init__ and advisability methods. The advisability method determines how advisable it is to continue with the event, based on the weather prediction. Two other classes defined in this file are Event and UserInteraction. The Event class represents the data about an event and defines a set of methods that you will need to implement. The UserInteraction class provides methods that allow the program to interact with the user. It defines a set of methods that you will need to implement. Two of these methods, get_prediction_model and output_advisability, are partially implemented with some example ideas that you may use in your solution.
+This python program is a simple weather prediction and event planning system (with a hard coded database of previous weather data). Its provides some information about how weather could affect a potential event and the system will predict the likelihood of weather conditions and indicate to the end user if conducting the event is advisable.
+
+The following diagram provides an overview of the expected classes in this programs design and their relationships.
 
 ![image](https://github.com/generalfos/2019_CSSE1001_ASSIGNMENT_2/assets/52812748/30b23119-e870-4128-ae96-6a1e5c202d8e)
